@@ -6,6 +6,7 @@
     "strict": true,
     "moduleResolution": "Node",
     "outDir": "dist",
+    "types": ["node"],
     "esModuleInterop": true,
     "skipLibCheck": true
   },
