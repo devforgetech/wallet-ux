@@ -1,0 +1,27 @@
+{
+  "name": "wallet-ux",
+  "version": "0.1.0",
+  "description": "Universal Web3 Wallet UX state machine for EIP-1193 providers.",
+  "module": "dist/index.mjs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts --minify --clean"
+  },
+  "keywords": [
+    "web3",
+    "wallet",
+    "ux",
+    "state-machine",
+    "ethereum",
+    "metamask",
+    "walletconnect",
+    "eip1193",
+    "frontend"
+  ],
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "typescript": "^5.4.0"
+  },
+  "license": "MIT"
+}
